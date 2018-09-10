@@ -60,15 +60,16 @@
                                     <constraint firstAttribute="trailing" secondItem="cP2-LL-vRo" secondAttribute="trailing" id="lkJ-8g-ebp"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wl9-TC-61b" customClass="RatingControl" customModule="foodTracker" customModuleProvider="target">
-                                <rect key="frame" x="20" y="472" width="200" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Wl9-TC-61b" customClass="RatingControl" customModule="foodTracker" customModuleProvider="target">
+                                <rect key="frame" x="20" y="472" width="44" height="44"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="q6F-l7-zDT" secondAttribute="trailing" id="LzG-JN-Kug"/>
+                            <constraint firstItem="Wl9-TC-61b" firstAttribute="top" secondItem="q6F-l7-zDT" secondAttribute="bottom" constant="7.5" id="PxP-Qj-4aw"/>
+                            <constraint firstItem="Wl9-TC-61b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aIj-x9-tnn"/>
                             <constraint firstItem="q6F-l7-zDT" firstAttribute="top" secondItem="B1U-n2-iFK" secondAttribute="bottom" constant="20" id="uSc-5H-hGm"/>
                             <constraint firstItem="q6F-l7-zDT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="waf-Nn-143"/>
                         </constraints>
@@ -91,6 +92,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="FB_IMG_1535464921593" width="592" height="592"/>
+        <image name="FB_IMG_1535464921593" width="296" height="296"/>
     </resources>
 </document>
